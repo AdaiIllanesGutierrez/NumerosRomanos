@@ -1,7 +1,7 @@
 import aRomano from "./aRomano.js";
 
 describe("Prueba", () => {
-  it("deberia devolver true", () => {
-    expect(aRomano(1)).toEqual(true);
+  it("se ingresa 1 Deberia devolver I", () => {
+    expect(aRomano(1)).toEqual('I');
   });
 });
