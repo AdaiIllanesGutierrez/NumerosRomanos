@@ -19,4 +19,10 @@ describe("Prueba", () => {
   it("se ingresa 10 Deberia devolver X", () => {
     expect(aRomano(10)).toEqual('X');
   });
+  it("se ingresa 40 Deberia devolver XL", () => {
+    expect(aRomano(40)).toEqual('XL');
+  });
+  it("se ingresa 41 Deberia devolver XLI", () => {
+    expect(aRomano(41)).toEqual('XLI');
+  });
 });

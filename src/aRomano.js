@@ -1,5 +1,6 @@
 function aRomano(numero){
     const valoresRomanos = [
+        { valor: 40, simbolo: 'XL' },
         { valor: 10, simbolo: 'X' },
         { valor: 9, simbolo: 'IX' },
         { valor: 5, simbolo: 'V' },
