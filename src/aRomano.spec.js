@@ -13,4 +13,7 @@ describe("Prueba", () => {
   it("se ingresa 5 Deberia devolver V", () => {
     expect(aRomano(5)).toEqual('V');
   });
+  it("se ingresa 9 Deberia devolver IX", () => {
+    expect(aRomano(9)).toEqual('IX');
+  });
 });
