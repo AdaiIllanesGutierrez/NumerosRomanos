@@ -25,4 +25,7 @@ describe("Prueba", () => {
   it("se ingresa 41 Deberia devolver XLI", () => {
     expect(aRomano(41)).toEqual('XLI');
   });
+  it("se ingresa 50 Deberia devolver L", () => {
+    expect(aRomano(50)).toEqual('L');
+  });
 });
